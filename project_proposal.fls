@@ -1,6 +1,6 @@
-PWD c:\Users\User\Desktop\Project Proposal
+PWD c:\Users\User\Projects\Project Proposal
 INPUT C:\Users\User\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\User\Desktop\Project Proposal\project_proposal.tex
+INPUT c:\Users\User\Projects\Project Proposal\project_proposal.tex
 OUTPUT project_proposal.log
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
