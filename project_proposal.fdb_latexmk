@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1677695895 "c:/Users/User/Projects/Project Proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1677695897 0
+["pdflatex"] 1677758788 "c:/Users/User/Projects/Project Proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1677758790 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1677159197 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1677154652 23173875 fcd34ae37e93eff3f35662d21e8befea ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -9,6 +9,7 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1247596666 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1669844196 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1669844196 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
@@ -18,9 +19,9 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1673901990 4674 02131cfba2d71c76972518a70a5967a8 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex" 1633253722 95525 6fd0552101a6b1f9b7a84b402ec435ba ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.sty" 1633253722 14690 c2c754218a7108db7823a4839c1bc3cd ""
-  "c:/Users/User/Projects/Project Proposal/project_proposal.tex" 1677695894 2421 e4ee1afd2928a6ed6794204bf427b287 ""
-  "project_proposal.aux" 1677695897 128 1b14bb3c7172ad9b06d45c272f2953ff "pdflatex"
-  "project_proposal.tex" 1677695894 2421 e4ee1afd2928a6ed6794204bf427b287 ""
+  "c:/Users/User/Projects/Project Proposal/project_proposal.tex" 1677758786 5209 91d8c1636d938af6061cd176690e885d ""
+  "project_proposal.aux" 1677758789 201 630f8e12abcccc8b61faf09a33e469e1 "pdflatex"
+  "project_proposal.tex" 1677758786 5209 91d8c1636d938af6061cd176690e885d ""
   (generated)
   "project_proposal.aux"
   "project_proposal.log"
