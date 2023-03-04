@@ -4,13 +4,26 @@
 \usepackage[nocheck]{fancyhdr}
 
 
+\pagestyle{fancy}
+\rhead{Management Software for Informal Businesses}
+\rfoot{St. Paul's University}
+
 
 \begin{document}
 \renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\baselinestretch}{1.5}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.5in}
+
+\thispagestyle{empty}
 \begin{center}
 	{\bfseries\huge
 		St. Paul's University \\
-		BAR 4102A - IT Business Research Project \\
+		BAR 4102A \\
+		IT Business Research Project \\
 		Charles Kamiri  \\
 		BOBITNRB200621 \\ [60pt]
 	}
@@ -18,22 +31,30 @@
 \emph{Management Software for Informal Businesses}
 \end{center}
 \newpage
-\pagestyle{fancy}
-\rhead{Management Software for Informal Businesses}
-\rfoot{St. Paul's University}
+
 
 % Table of Contents
+\thispagestyle{empty}
+\renewcommand{\contentsname}{Table of Contents}
 \tableofcontents
 \newpage
 
+
 % Introduction
 \section{Introduction}
-\paragraph*{}
-Informal businesses, also known as micro, small, and medium enterprises (MSMEs), are a critical component of the global economy. These businesses provide employment opportunities and contribute to economic growth in many developing countries. However, most informal businesses face several challenges, such as limited access to financial resources, lack of business skills, and poor record-keeping practices. These challenges hinder the growth and sustainability of these businesses, limiting their potential to contribute to the economy.
+\subsection{Background}
+\paragraph{}
+Informal businesses, also known as micro, small, and medium enterprises (MSMEs), are a critical component of the global economy. These businesses provide employment opportunities and contribute to economic growth in many developing countries.
 
+\subsection{Problem Statement}
+\paragraph*{}
+However, most informal businesses face several challenges, such as limited access to financial resources, lack of business skills, and poor record-keeping practices. These challenges hinder the growth and sustainability of these businesses, limiting their potential to contribute to the economy.
+
+\subsection{Objectives}
 \paragraph*{}
 To address these challenges, we propose the development of a management software specifically designed for informal businesses. The software aims to provide a simple, affordable, and accessible solution to help these businesses manage their operations effectively. The software will offer features such as inventory management, sales tracking, financial management, and customer relationship management. With these features, informal businesses will be able to keep accurate records, make informed decisions, and improve their profitability.
 
+\subsection{Justification}
 \paragraph*{}
 Our proposed management software is designed to be user-friendly, affordable, and accessible to all types of informal businesses, regardless of their level of technical expertise. We believe that this software can have a significant impact on the growth and sustainability of informal businesses, leading to more significant contributions to the economy.
 
@@ -105,9 +126,9 @@ Overall, this methodology will ensure that the software system meets the needs a
 
 % References
 \section{References}
+\renewcommand{\refname}{}
 \begin{thebibliography}{10}
 	\bibliographystyle{apalike}
-
 	% Add references here
 	\bibitem{ref1}
 	Akter, S., Islam, S., \& Ahsan, M. (2019). Adoption of management software among microenterprises in Bangladesh: An empirical study. Information Development, 35(2), 265-280.
