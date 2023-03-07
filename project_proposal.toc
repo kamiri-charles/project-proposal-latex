@@ -19,5 +19,10 @@
 \contentsline {subsection}{\numberline {4.3}Project Management}{8}{}%
 \contentsline {subsection}{\numberline {4.4}Risk Management}{8}{}%
 \contentsline {subsection}{\numberline {4.5}Evaluation and Monitoring}{8}{}%
-\contentsline {section}{\numberline {5}Testing}{10}{}%
-\contentsline {section}{\numberline {6}References}{11}{}%
+\contentsline {section}{\numberline {5}Testing}{11}{}%
+\contentsline {subsection}{\numberline {5.1}Testing Approach}{11}{}%
+\contentsline {subsection}{\numberline {5.2}Testing Scope}{11}{}%
+\contentsline {subsection}{\numberline {5.3}Testing Resources}{11}{}%
+\contentsline {subsection}{\numberline {5.4}Testing Plan}{11}{}%
+\contentsline {subsection}{\numberline {5.5}Risk Assessment}{12}{}%
+\contentsline {section}{\numberline {6}References}{13}{}%
