@@ -14,5 +14,10 @@
 \contentsline {subsection}{\numberline {3.5}Deployment and Training}{6}{}%
 \contentsline {subsection}{\numberline {3.6}Monitoring and Evaluation}{6}{}%
 \contentsline {section}{\numberline {4}Implantation}{8}{}%
-\contentsline {section}{\numberline {5}Testing}{9}{}%
-\contentsline {section}{\numberline {6}References}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Project Timeline}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Project Budget}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Project Management}{8}{}%
+\contentsline {subsection}{\numberline {4.4}Risk Management}{8}{}%
+\contentsline {subsection}{\numberline {4.5}Evaluation and Monitoring}{8}{}%
+\contentsline {section}{\numberline {5}Testing}{10}{}%
+\contentsline {section}{\numberline {6}References}{11}{}%
