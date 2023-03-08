@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.23)  7 MAR 2023 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.23)  8 MAR 2023 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -110,46 +110,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `project_proposal.toc'.
 
- [2] [3] [4] [5] [6] [7]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 174.
+ [2] [3] [4] [5] [6] [7] [8]
+<evaluation.jpg, id=34, 261.97874pt x 168.63pt>
+File: evaluation.jpg Graphic file (type jpg)
+<use evaluation.jpg>
+Package pdftex.def Info: evaluation.jpg  used on input line 210.
+(pdftex.def)             Requested size: 375.80542pt x 241.90584pt.
+
+Overfull \hbox (30.80542pt too wide) in paragraph at lines 210--211
+ [][] 
+ []
+
+[9 <./evaluation.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 232.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-<project_management.png, id=31, 1116.17pt x 821.0675pt>
-File: project_management.png Graphic file (type png)
-<use project_management.png>
-Package pdftex.def Info: project_management.png  used on input line 190.
-(pdftex.def)             Requested size: 375.80542pt x 276.44058pt.
-
-Overfull \hbox (30.80542pt too wide) in paragraph at lines 190--191
- [][] 
- []
-
-<evaluation.png, id=33, 1116.17pt x 821.0675pt>
-File: evaluation.png Graphic file (type png)
-<use evaluation.png>
-Package pdftex.def Info: evaluation.png  used on input line 221.
-(pdftex.def)             Requested size: 375.80542pt x 276.44058pt.
-
-Overfull \hbox (30.80542pt too wide) in paragraph at lines 221--222
- [][] 
- []
-
-[8] [9 <./project_management.png>] [10 <./evaluation.png>] [11
-
-] [12] [13] (project_proposal.aux) ) 
+) [10] [11] [12] (project_proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 1981 strings out of 476374
- 37121 string characters out of 5789326
+ 1971 strings out of 476374
+ 36896 string characters out of 5789326
  1860340 words of memory out of 5000000
- 22380 multiletter control sequences out of 15000+600000
- 516085 words of font info for 44 fonts, out of 8000000 for 9000
+ 22372 multiletter control sequences out of 15000+600000
+ 515746 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,634b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on project_proposal.pdf (13 pages, 211251 bytes).
+ 72i,12n,77p,633b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on project_proposal.pdf (12 pages, 147582 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
