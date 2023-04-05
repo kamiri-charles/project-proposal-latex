@@ -7,21 +7,23 @@
 \contentsline {subsection}{\numberline {1.5}Limitations}{3}{}%
 \contentsline {section}{\numberline {2}Literature Review}{5}{}%
 \contentsline {section}{\numberline {3}Methodology}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Needs Assessment}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Software Design}{6}{}%
-\contentsline {subsection}{\numberline {3.3}Software Development}{6}{}%
-\contentsline {subsection}{\numberline {3.4}Testing and Validation}{6}{}%
-\contentsline {subsection}{\numberline {3.5}Deployment and Training}{6}{}%
-\contentsline {subsection}{\numberline {3.6}Monitoring and Evaluation}{6}{}%
-\contentsline {section}{\numberline {4}Implantation}{8}{}%
-\contentsline {subsection}{\numberline {4.1}Project Timeline}{8}{}%
-\contentsline {subsection}{\numberline {4.2}Project Budget}{8}{}%
-\contentsline {subsection}{\numberline {4.3}Risk Management}{8}{}%
-\contentsline {subsection}{\numberline {4.4}Evaluation and Monitoring}{9}{}%
-\contentsline {section}{\numberline {5}Testing}{10}{}%
-\contentsline {subsection}{\numberline {5.1}Testing Approach}{10}{}%
-\contentsline {subsection}{\numberline {5.2}Testing Scope}{10}{}%
-\contentsline {subsection}{\numberline {5.3}Testing Resources}{10}{}%
-\contentsline {subsection}{\numberline {5.4}Testing Plan}{10}{}%
-\contentsline {subsection}{\numberline {5.5}Risk Assessment}{11}{}%
-\contentsline {section}{\numberline {6}References}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Overview}{6}{}%
+\contentsline {subsubsection}{\numberline {i}Purpose}{6}{}%
+\contentsline {subsubsection}{\numberline {ii}Target Audience}{6}{}%
+\contentsline {subsubsection}{\numberline {iii}Scope}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Requirements Gathering}{7}{}%
+\contentsline {subsubsection}{\numberline {i}User Needs}{7}{}%
+\contentsline {subsubsection}{\numberline {ii}User Behavior}{7}{}%
+\contentsline {subsubsection}{\numberline {iii}Performance Metrics}{7}{}%
+\contentsline {subsubsection}{\numberline {iv}Tools}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Architectural Framework}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Component Overview}{9}{}%
+\contentsline {subsubsection}{\numberline {i}Database Layer}{9}{}%
+\contentsline {subsubsection}{\numberline {ii}Business Logic Layer}{9}{}%
+\contentsline {subsubsection}{\numberline {iii}Presentation Layer}{10}{}%
+\contentsline {subsubsection}{\numberline {iv}Integration Layer}{10}{}%
+\contentsline {subsubsection}{\numberline {v}Infrastructure Layer}{10}{}%
+\contentsline {subsection}{\numberline {3.5}Implementation}{10}{}%
+\contentsline {subsection}{\numberline {3.6}Testing}{10}{}%
+\contentsline {subsection}{\numberline {3.7}Maintenance}{11}{}%
+\contentsline {section}{\numberline {4}References}{12}{}%

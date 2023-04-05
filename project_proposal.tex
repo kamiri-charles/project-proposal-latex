@@ -3,6 +3,36 @@
 \usepackage{lipsum}
 \usepackage[nocheck]{fancyhdr}
 \usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\usepackage{titlesec}
+
+\renewcommand\familydefault{\sfdefault}
+
+% Define the indent size for subsections
+\newlength{\subsecindent}
+\setlength{\subsecindent}{1.5em}
+
+% Define the format for subsection titles
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {\hspace{\subsecindent}\thesubsection}
+  {1em}
+  {}
+
+% Define the format for subsubsection titles
+\titleformat{\subsubsection}
+  {\normalfont\itshape}
+  {\hspace{2\subsecindent}\thesubsubsection}
+  {1em}
+  {}
+
+% Remove the index from subsubsection
+\renewcommand{\thesubsubsection}{\roman{subsubsection}}
+
+
+
+
 
 
 
@@ -12,10 +42,9 @@
 
 
 \begin{document}
-\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{10pt}
 \renewcommand{\baselinestretch}{1.5}
 \setlength{\parskip}{0.5em}
-\setlength{\parindent}{0pt}
 \setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9.5in}
 \setlength{\topmargin}{-0.5in}
@@ -104,163 +133,146 @@ The research revieId in this literature review suggests that management software
 
 \newpage
 
-% Methodology
 \section{Methodology}
-%\lipsum[1-2]
-\subsection{Needs Assessment}
-\paragraph*{}
-The first step in the methodology will be to conduct a needs assessment to identify the specific needs and requirements of the target audience. This will involve conducting interviews with informal business owners and managers to understand their current management practices and the challenges they face. The needs assessment will also involve reviewing existing literature and research on the subject to identify best practices and trends.
+\subsection{Overview}
 
-\subsection{Software Design}
-\paragraph*{}
-The second step will be to design the software based on the needs assessment findings. The software will be designed to be user-friendly, customizable, and scalable. The design will be informed by the latest software development technologies and practices.
+In this section, we describe the methodology that we followed to develop our software system. The methodology is based on the agile software development approach, which emphasizes collaboration, flexibility, and responsiveness to change. We divided the development process into several phases, each of which involved different activities and deliverables.
 
-\subsection{Software Development}
-\paragraph*{}
-The third step will be to develop the software based on the design specifications. The software will be developed using an agile development methodology, which involves iterative development, continuous testing, and feedback from stakeholders. The software will be developed using open-source technologies and will be customizable to meet the specific needs of each business.
+\subsubsection{Purpose}
+The purpose of this project is to develop a management software that can help informal businesses to manage their daily operations and grow their business. The software will provide features such as inventory management, sales tracking, expense tracking, customer management, and reporting.
 
-\subsection{Testing and Validation}
-\paragraph*{}
-The fourth step will be to test the software to ensure that it meets the requirements and specifications. This will involve conducting user acceptance testing (UAT) with informal business owners and managers to validate the software's functionality and ease of use. The software will also be tested for security, reliability, and scalability.
+\subsubsection{Target Audience}
+The target audience for this software is informal businesses such as small shops, food vendors, and service providers. These businesses often lack the resources and expertise to manage their operations efficiently and could benefit from a simple and easy-to-use management software.
 
-\subsection{Deployment and Training}
-\paragraph*{}
-The fifth step will be to deploy the software to the target audience and provide training and support. The deployment process will involve installing the software on each business's computers and configuring the software to meet their specific needs. Training will be provided to ensure that users are familiar with the software's features and capabilities. Support will be provided to address any issues or concerns that arise during the deployment and training process.
+\subsubsection{Scope}
+The scope of this project includes developing a web-based management software that can be accessed from any device with an internet connection. The software will include the following features:
 
-\subsection{Monitoring and Evaluation}
-\paragraph*{}
-The final step will be to monitor and evaluate the software's effectiveness in improving the productivity, efficiency, and profitability of informal businesses. This will involve collecting data on key performance indicators (KPIs) such as sales, expenses, and profits, and analyzing the data to assess the impact of the software. Feedback from users will also be solicited to identify areas for improvement and future development.
-
-Overall, this methodology will ensure that the software system meets the needs and requirements of informal businesses and contributes to their growth and success.
+\begin{itemize}
+    \item Inventory management: Keep track of products, quantities, and prices.
+    \item Sales tracking: Record sales transactions and generate sales reports.
+    \item Expense tracking: Record expenses and generate expense reports.
+    \item Customer management: Store customer information and purchase history.
+    \item Reporting: Generate reports on sales, expenses, and inventory.
+\end{itemize}
 \newpage
 
 
-% Implantation
-\section{Implantation}
+\subsection{Requirements Gathering}
 
-\subsection{Project Timeline}
+\paragraph*{}
+To ensure that the software meets the needs of the target audience, the following data will be collected:
 
-The following table outlines the project timeline, milestones, and deadlines for different phases of the project:
+\subsubsection{User Needs}
+\paragraph*{}
+To understand the needs of the target audience, the following data will be collected:
 
-\begin{table}[htbp]
-\centering
-\caption{Project Timeline}
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Phase} & \textbf{Timeline} \\
-\hline
-Requirements gathering & Week 1 \\
-Design & Week 2 - 4 \\
-Development & Months 2 -3 \\
-Testing & Months 4 \\
-Deployment & Month 4 \\
-Maintenance & Ongoing \\
-\hline
-\end{tabular}%
-\label{tab:timeline}%
-\end{table}%
+\begin{itemize}
+    \item Demographic information: Age, gender, location, and occupation of the target audience.
+    \item Business information: Types of products or services offered, current challenges faced by the business, and current methods of managing operations.
+\end{itemize}
 
-\subsection{Project Budget}
+The data will be collected through surveys and interviews with informal business owners.
 
-The following table describes the resources needed to carry out the project, as well as the estimated costs associated with each resource:
+\subsubsection{User Behavior}
+To understand how the target audience currently manages their operations and how they may use the software, the following data will be collected:
 
-\begin{table}[htbp]
-\centering
-\caption{Project Budget}
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Resource} & \textbf{Estimated Cost} \\
-\hline
-Personnel (developers, project manager) & Ksh. 50,000 \\
-Equipment (computers, software licenses) & Ksh. 25,000 \\
-Materials (office supplies, documentation) & Ksh. 1, 000 \\
-\hline
-\textbf{Total} & \textbf{Ksh. 76,000} \\
-\hline
-\end{tabular}%
-\label{tab:budget}%
-\end{table}%
+\begin{itemize}
+    \item Inventory data: Types of products, quantities, and prices.
+    \item Sales data: Transactions, customer information, and payment methods.
+    \item Expense data: Types of expenses, amounts, and frequency.
+    \item Customer data: Information on customer demographics, purchase history, and loyalty.
+\end{itemize}
 
-\subsection{Risk Management}
+The data will be collected through the software itself, which will track and store the relevant information.
 
-The following table describes the potential risks associated with the project and how these risks will be managed or mitigated:
+\subsubsection{Performance Metrics}
+To ensure that the software is meeting the needs of the target audience and improving their operations, the following performance metrics will be collected:
 
-\begin{table}[htbp]
-\centering
-\caption{Risk Management}
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Risk} & \textbf{Mitigation} \\
-\hline
-Delays in development & Regular progress reports and milestone tracking \\
-Technical difficulties & Experienced development team and backup resources \\
-Inadequate testing & Thorough testing plan and user feedback \\
-Lack of user adoption & User-centered design and training \\
-\hline
-\end{tabular}%
-\label{tab:risk}%
-\end{table}%
+\begin{itemize}
+    \item User engagement: Number of users, frequency of use, and time spent on the software.
+    \item Software performance: Speed, reliability, and availability of the software.
+    \item Business performance: Improvement in sales, reduction in expenses, and growth of the business.
+\end{itemize}
 
-\subsection{Evaluation and Monitoring}
+The data will be collected through the software itself and analyzed using data analysis tools. 
 
-The following figure outlines how the project's progress will be monitored, evaluated, and reported, as Ill as how the project's success will be measured against its goals and objectives:
+\subsubsection{Tools}
+To collect and analyze the data, the following tools will be used:
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.8\textwidth]{evaluation.jpg}
-\caption{Project Evaluation and Monitoring}
-\label{fig:evaluation}
-\end{figure}
+\begin{itemize}
+    \item Survey and interview tools: Google Forms and Zoom.
+    \item Data analysis tools: Excel and Tableau.
+\end{itemize}
+
+Google Forms and Zoom will be used to conduct surveys and interviews with informal business owners. The data collected will be analyzed using Excel and Tableau, which will help identify patterns and insights from the data.
 \newpage
 
 
-% Testing
-\section{Testing}
-\label{sec:testing}
+\subsection{Architectural Framework}
 
-The testing approach for the management software project will focus on ensuring that the software is functional, reliable, and performs Ill. I will use a combination of automated and manual testing techniques to test the software.
+\paragraph*{}
+A model-driven approach will be utilized to design the software system's architecture. I will use UML (Unified Modeling Language) to create high-level diagrams that capture the system's structure and behavior. I will also use design patterns to guide our design decisions and ensure that our software system is scalable, maintainable, and extensible.
 
-\subsection{Testing Approach}
-I will use the Agile testing methodology to ensure that testing is integrated into the development process. This will include continuous testing, where I will run automated tests as part of the continuous integration and deployment process.
+\paragraph*{}
+The architectural design consists of several components, including the user interface, application logic, and database. The user interface will be designed using a responsive design approach, which will ensure that the software system is accessible and usable across different devices and platforms. The application logic will be designed using a modular approach, which  will allow for the breaking down the system into smaller, more manageable components. The database will be designed using a relational database management system (RDBMS), which will provide a flexible and efficient way to store and retrieve data.
 
-For manual testing, I will have a team of testers who will test the software at various stages of development, including integration testing and user acceptance testing. The testing phase will run closely with the development phase to ensure that defects are identified and resolved in a timely manner.
+\paragraph*{}
+The software architecture of our system is designed to provide a scalable and extensible framework for building complex software applications. The architecture is based on a layered approach, with each layer providing a specific set of functionality and services.
 
-\subsection{Testing Scope}
-The testing scope for our project will cover the following areas:
-
-\begin{itemize}
-\item Functional testing: I will test the various features of the management software to ensure that they work as expected, including user registration, inventory management, and financial reporting.
-\item Integration testing: I will test the integration of the frontend (React) and backend (Java Spring Boot) components to ensure that they work seamlessly together.
-\item Performance testing: I will test the performance of the software under various loads to ensure that it can handle high traffic and usage.
-\item Security testing: I will test the security of the software to ensure that it is protected against common security threats, such as SQL injection and cross-site scripting.
-\end{itemize}
-
-\subsection{Testing Resources}
-To conduct the testing activities, I will need the following resources:
+\paragraph*{}
+The architectural framework of our system is based on the Model-View-Controller (MVC) design pattern. This design pattern separates the application logic into three distinct components:
 
 \begin{itemize}
-\item Hardware: I will require a dedicated testing environment with suitable hardware resources to simulate real-world usage scenarios.
-\item Software: I will use a combination of open source and commercial testing tools, including JUnit, Selenium, and Apache JMeter.
+\item \textbf{Model}: This component represents the data and the business logic of the application.
+\item \textbf{View}: This component represents the user interface of the application.
+\item \textbf{Controller}: This component acts as the intermediary between the Model and the View, and handles user input and business logic.
 \end{itemize}
 
-\subsection{Testing Plan}
-The testing plan will include the following activities:
+By separating these components, we can achieve greater modularity, maintainability, and flexibility in our codebase.
 
-\begin{itemize}
-\item Test case development: I will develop a set of test cases that cover the various features and functionalities of the software.
-\item Test execution: I will execute the test cases to ensure that the software meets the requirements and specifications.
-\item Test reporting: I will document the results of the testing activities and report any defects or issues to the development team for resolution.
-\item Retesting: I will retest any defects or issues that are resolved in development to ensure that they have been properly fixed.
-\end{itemize}
+\subsection{Component Overview}
 
-\subsection{Risk Assessment}
-The following potential risks have been identified and will be mitigated as follows:
+Our system consists of several components, each providing a specific set of functionality:
 
-\begin{itemize}
-\item Inadequate testing coverage: I will mitigate this risk by developing a comprehensive set of test cases that cover all aspects of the software.
-\item Inconsistent testing: I will mitigate this risk by using a combination of automated and manual testing techniques and by having a dedicated testing team.
-\item Testing delays: I will mitigate this risk by incorporating testing into the development process and by using automated testing wherever possible to minimize delays.
-\end{itemize}
+\subsubsection{Database Layer}
+
+The database layer is responsible for managing the persistence of data in our system. We use a relational database management system (RDBMS) to store and retrieve data, and we use an Object-Relational Mapping (ORM) framework to map the database schema to our application's data model.
+
+\subsubsection{Business Logic Layer}
+
+The business logic layer is responsible for implementing the core functionality of our application. This layer contains the Model component of the MVC architecture, and is responsible for managing the data and the application logic.
+
+\subsubsection{Presentation Layer}
+
+The presentation layer is responsible for providing the user interface of our application. This layer contains the View and Controller components of the MVC architecture, and is responsible for rendering the data and handling user input.
+
+\subsubsection{Integration Layer}
+
+The integration layer is responsible for integrating our system with other external systems and services. This layer provides interfaces for communicating with other systems, and handles data transformation and mapping between our system and external systems.
+
+\subsubsection{Infrastructure Layer}
+
+The infrastructure layer is responsible for providing the underlying infrastructure and services required to run our system. This layer includes components such as web servers, load balancers, and network infrastructure.
+
+
+\subsection{Implementation}
+
+The third phase of our development process was implementation. We used a test-driven development (TDD) approach to implement the software system's components. TDD involved writing automated tests for each component before writing the code for the component. This approach ensured that the software system was reliable, maintainable, and had good test coverage.
+
+I will employ several programming languages and frameworks to implement the software system's components. The user interface will be implemented using the React framework which compiles to HTML, CSS and JavaScript, and the application logic to be implemented using Java and the Java Spring Boot web framework. The database will be implemented using PostgreSQL, a popular open-source RDBMS.
+
+\subsection{Testing}
+
+The fourth phase of our development process is testing. I will use various testing techniques such as unit testing, integration testing, and acceptance testing to test the software system's components. We also used manual testing to ensure that the software system was user-friendly and met the stakeholders' needs and requirements.
+
+A continuous integration and continuous deployment (CI/CD) approach to automate the testing and deployment process  will be implemented. The use of GitHub Actions to automate the testing and deployment process, will allow for quick detection and fixation of any issues that may arise during the development process will also be used.
+
+\subsection{Maintenance}
+
+The final phase of the development process is maintenance. I will use various techniques such as bug tracking, performance monitoring, and user feedback to maintain the software system. I will also use a DevOps approach to ensure that the software system is reliable, scalable, and secure. I will utilize cloud hosting services such as Amazon Web Services (AWS) and Google Cloud Platform (GCP) to deploy and manage the software system.
+
+Overall, the methodology will ensure and guarantee the delivery of a high-quality software system that meets the stakeholders' needs and requirements. I will follow a collaborative and flexible approach that will allow for quick response to changes and ensure that the software system is reliable, maintainable, and scalable.
+
 \newpage
 
 
