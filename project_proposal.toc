@@ -17,13 +17,13 @@
 \contentsline {subsubsection}{\numberline {iii}Performance Metrics}{7}{}%
 \contentsline {subsubsection}{\numberline {iv}Tools}{8}{}%
 \contentsline {subsection}{\numberline {3.3}Architectural Framework}{9}{}%
-\contentsline {subsection}{\numberline {3.4}Component Overview}{9}{}%
-\contentsline {subsubsection}{\numberline {i}Database Layer}{9}{}%
-\contentsline {subsubsection}{\numberline {ii}Business Logic Layer}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Component Overview}{10}{}%
+\contentsline {subsubsection}{\numberline {i}Database Layer}{10}{}%
+\contentsline {subsubsection}{\numberline {ii}Business Logic Layer}{10}{}%
 \contentsline {subsubsection}{\numberline {iii}Presentation Layer}{10}{}%
 \contentsline {subsubsection}{\numberline {iv}Integration Layer}{10}{}%
-\contentsline {subsubsection}{\numberline {v}Infrastructure Layer}{10}{}%
-\contentsline {subsection}{\numberline {3.5}Implementation}{10}{}%
-\contentsline {subsection}{\numberline {3.6}Testing}{10}{}%
+\contentsline {subsubsection}{\numberline {v}Infrastructure Layer}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Implementation}{11}{}%
+\contentsline {subsection}{\numberline {3.6}Testing}{11}{}%
 \contentsline {subsection}{\numberline {3.7}Maintenance}{11}{}%
 \contentsline {section}{\numberline {4}References}{12}{}%

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1680688612 "c:/Users/User/Projects/Project Proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1680688614 0
+["pdflatex"] 1680785696 "c:/Users/User/Projects/Project Proposal/project_proposal.tex" "project_proposal.pdf" "project_proposal" 1680785698 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1680687136 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1680685860 23808 1143e37130f562767c278b4bddad9620 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1677154652 23173875 fcd34ae37e93eff3f35662d21e8befea ""
@@ -41,10 +41,12 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1phv.fd" 1585253778 1536 47067fbe7c3ffed1ede7aaa7b8549d7a ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1phv.fd" 1585253778 1221 ec0c641cd2e0fb69a449534a0279b5ca ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625497667 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
-  "c:/Users/User/Projects/Project Proposal/project_proposal.tex" 1680688610 17835 a78274d59c44b74bd03d8367e1d9a4df ""
-  "project_proposal.aux" 1680688613 3172 7f5a5b9d83672c19a1c06a4646955f8d "pdflatex"
-  "project_proposal.tex" 1680688610 17835 a78274d59c44b74bd03d8367e1d9a4df ""
-  "project_proposal.toc" 1680688614 1877 560a8e8bde4b979797adb76b2ac666ee "pdflatex"
+  "c:/Users/User/Projects/Project Proposal/project_proposal.tex" 1680785695 17947 6b63db86a4a064a1c10a6d2340114151 ""
+  "db_schema.jpg" 1680785458 25686 f758c6b600b8826add095e19a58e296b ""
+  "mvc.jpeg" 1680784113 12207 c857499cee1ee74c5d5e0a80f71d90ad ""
+  "project_proposal.aux" 1680785697 3175 c0be54ec319beb03fda2ac692b21aae6 "pdflatex"
+  "project_proposal.tex" 1680785695 17947 6b63db86a4a064a1c10a6d2340114151 ""
+  "project_proposal.toc" 1680785697 1880 58f079a07efaa9151c3497cdb7ec863e "pdflatex"
   (generated)
   "project_proposal.aux"
   "project_proposal.log"
