@@ -15,7 +15,7 @@
 \contentsline {subsubsection}{\numberline {i}User Needs}{7}{}%
 \contentsline {subsubsection}{\numberline {ii}User Behavior}{7}{}%
 \contentsline {subsubsection}{\numberline {iii}Performance Metrics}{7}{}%
-\contentsline {subsubsection}{\numberline {iv}Tools}{8}{}%
+\contentsline {subsubsection}{\numberline {iv}Tools}{7}{}%
 \contentsline {subsection}{\numberline {3.3}Architectural Framework}{9}{}%
 \contentsline {subsection}{\numberline {3.4}Component Overview}{10}{}%
 \contentsline {subsubsection}{\numberline {i}Database Layer}{10}{}%
@@ -25,5 +25,9 @@
 \contentsline {subsubsection}{\numberline {v}Infrastructure Layer}{11}{}%
 \contentsline {subsection}{\numberline {3.5}Implementation}{11}{}%
 \contentsline {subsection}{\numberline {3.6}Testing}{11}{}%
-\contentsline {subsection}{\numberline {3.7}Maintenance}{11}{}%
-\contentsline {section}{\numberline {4}References}{12}{}%
+\contentsline {subsubsection}{\numberline {i}Unit Testing}{11}{}%
+\contentsline {subsubsection}{\numberline {ii}Integration Testing}{12}{}%
+\contentsline {subsubsection}{\numberline {iii}Acceptance Testing}{12}{}%
+\contentsline {subsubsection}{\numberline {iv}Manual Testing}{12}{}%
+\contentsline {subsection}{\numberline {3.7}Maintenance}{12}{}%
+\contentsline {section}{\numberline {4}References}{13}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.23)  6 APR 2023 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.23)  8 APR 2023 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -155,39 +155,39 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 152.
  [6] [7] [8]
-Overfull \hbox (9.25064pt too wide) in paragraph at lines 224--225
+Overfull \hbox (9.25064pt too wide) in paragraph at lines 221--222
 [] \T1/phv/m/n/10 The ar-chi-tec-tural frame-work of our sys-tem is based on the Model-View-Controller
  []
 
 <mvc.jpeg, id=31, 475.7775pt x 475.7775pt>
 File: mvc.jpeg Graphic file (type jpg)
 <use mvc.jpeg>
-Package pdftex.def Info: mvc.jpeg  used on input line 232.
+Package pdftex.def Info: mvc.jpeg  used on input line 229.
 (pdftex.def)             Requested size: 234.87749pt x 234.88261pt.
 [9 <./mvc.jpeg>]
 <db_schema.jpg, id=35, 626.34pt x 381.67593pt>
 File: db_schema.jpg Graphic file (type jpg)
 <use db_schema.jpg>
-Package pdftex.def Info: db_schema.jpg  used on input line 247.
+Package pdftex.def Info: db_schema.jpg  used on input line 244.
 (pdftex.def)             Requested size: 422.77661pt x 257.6376pt.
 
-Overfull \hbox (87.77661pt too wide) in paragraph at lines 247--248
+Overfull \hbox (87.77661pt too wide) in paragraph at lines 244--245
 [][] 
  []
 
-[10 <./db_schema.jpg>] [11] [12] (project_proposal.aux) ) 
+[10 <./db_schema.jpg>] [11] [12] [13] (project_proposal.aux) ) 
 Here is how much of TeX's memory you used:
  2585 strings out of 476374
  44451 string characters out of 5789326
- 1859340 words of memory out of 5000000
+ 1860340 words of memory out of 5000000
  22968 multiletter control sequences out of 15000+600000
  529195 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,702b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,839b,219s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on project_proposal.pdf (12 pages, 99731 bytes).
+Output written on project_proposal.pdf (13 pages, 103080 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

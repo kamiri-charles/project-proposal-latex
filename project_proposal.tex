@@ -137,7 +137,7 @@ The research revieId in this literature review suggests that management software
 \section{Methodology}
 \subsection{Overview}
 
-In this section, we describe the methodology that we followed to develop our software system. The methodology is based on the agile software development approach, which emphasizes collaboration, flexibility, and responsiveness to change. We divided the development process into several phases, each of which involved different activities and deliverables.
+This section contains a describption of the methodology that will be followed to develop our software system. The methodology is based on the agile software development approach, which emphasizes collaboration, flexibility, and responsiveness to change. I will divide the development process into several phases, each of which whill involve different activities and deliverables.
 
 \subsubsection{Purpose}
 The purpose of this project is to develop a management software that can help informal businesses to manage their daily operations and grow their business. The software will provide features such as inventory management, sales tracking, expense tracking, customer management, and reporting.
@@ -159,9 +159,6 @@ The scope of this project includes developing a web-based management software th
 
 
 \subsection{Requirements Gathering}
-
-\paragraph*{}
-To ensure that the software meets the needs of the target audience, the following data will be collected:
 
 \subsubsection{User Needs}
 \paragraph*{}
@@ -270,9 +267,36 @@ I will employ several programming languages and frameworks to implement the soft
 
 \subsection{Testing}
 
-The fourth phase of our development process is testing. I will use various testing techniques such as unit testing, integration testing, and acceptance testing to test the software system's components. We also used manual testing to ensure that the software system was user-friendly and met the stakeholders' needs and requirements.
+The fourth phase of the development process is testing. I will use various testing techniques such as unit testing, integration testing, and acceptance testing to test the software system's components. I will also employ manual testing to ensure that the software system is user-friendly and meets the stakeholders' needs and requirements.
 
 A continuous integration and continuous deployment (CI/CD) approach to automate the testing and deployment process  will be implemented. The use of GitHub Actions to automate the testing and deployment process, will allow for quick detection and fixation of any issues that may arise during the development process will also be used.
+
+\subsubsection{Unit Testing}
+\paragraph*{}
+Unit testing is a type of software testing where individual components of the system are tested in isolation to ensure that they work as expected.
+
+\paragraph*{Frontend (React)}
+\paragraph*{}
+The frontend components will be tested using the Jest testing framework. Jest is a popular testing framework for React applications, and provides a set of tools for testing React components. Jest also provides a set of tools for mocking and stubbing, which will be used to mock the backend API.
+
+\paragraph*{Backend (Java)}
+\paragraph*{}
+The backend components will be tested using the JUnit testing framework. JUnit is a popular testing framework for Java applications, and provides a set of tools for testing Java classes and methods. JUnit also provides a set of tools for mocking and stubbing, which will be used to mock the database.
+
+\subsubsection{Integration Testing}
+\paragraph*{}
+Integration testing is a type of software testing where the components of the system are tested as a group to ensure that they work together as expected.
+
+\paragraph*{}
+Integration testing will be an important part of the testing phase for the management software for informal businesses. I will write integration tests to ensure that the React frontend, Java Spring backend, and Postgres database are all working together as expected. For example, I will write tests that simulate user interactions with the frontend and ensure that the data is correctly stored in the database via the backend API. I will also test the communication between the frontend and backend to ensure that requests and responses are being sent and received correctly. These integration tests will help catch any issues that may arise from the interactions between our different components and ensure that the system is working as a cohesive whole.
+
+\subsubsection{Acceptance Testing}
+\paragraph*{}
+Acceptance testing is critical to ensure that the management software for informal businesses meets the needs and requirements of the stakeholders. I will write acceptance tests that simulate typical user interactions with the software, such as creating a new business account, adding products or services, and generating financial reports. I will also ensure that the system is user-friendly and easy to navigate. These tests will help to validate that the system is meeting the stakeholders' needs, and ensure that it is intuitive and easy to use. Additionally, I will use any feedback received from stakeholders during acceptance testing to iterate and improve the software before it is released.
+
+\subsubsection{Manual Testing}
+\paragraph*{}
+Manual testing will be a crucial part of ensuring that the management software for informal businesses is user-friendly and meets the stakeholders' needs. I will manually test the software to validate that it is easy to navigate, that users can easily find the features they need, and that the system responds appropriately to user inputs. Additionally, I will test the software's performance to ensure that it can handle the expected user load without lagging or crashing. Manual testing will allow for easy identification of any issues that may have been missed in automated testing and ensure that the system is easy to use and reliable.
 
 \subsection{Maintenance}
 
